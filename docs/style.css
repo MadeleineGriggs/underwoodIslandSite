@@ -35,6 +35,11 @@
   }
   
   /* Main Content Area */
+
+  .splash-image-container img {
+    max-height: 25rem;
+    object-fit: cover;
+  }
   
   .content-section-title {
     font-family: var(--title-font);
@@ -111,6 +116,8 @@
   }
   .splash-image-container img {
     width: 100%;
+    max-height: 12rem;
+    object-fit: cover;
   }
 
   .content-section-title {
@@ -470,6 +477,7 @@
   }
   .splash-image-container img {
     width: 100%;
+
   }
 
   .content-section-title {
